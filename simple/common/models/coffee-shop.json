@@ -1,0 +1,32 @@
+{
+  "name": "CoffeeShop",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+      "id": true,
+      "generated": true,
+      "length": 5
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "length": 100
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "length": 100
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [],
+  "methods": {}
+}

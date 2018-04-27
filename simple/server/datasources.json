@@ -1,0 +1,24 @@
+{
+  "mysqlDs": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "",
+    "database": "mydb",
+    "password": "admin",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql",
+    "connectTimeout": 20000,
+    "acquireTimeout": 20000
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "demo",
+    "password": "",
+    "name": "mongoDs",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
